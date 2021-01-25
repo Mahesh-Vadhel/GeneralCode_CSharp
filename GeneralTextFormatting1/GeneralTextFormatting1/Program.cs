@@ -96,7 +96,7 @@ namespace GeneralTextFormatting1
                 WriteLine($"{myDouble,-10:N2} -- Number");
                 WriteLine($"{myDouble,-10:p4} -- percentage 4 dig after '.'");
                 WriteLine($"{myDouble,-10:F4} -- Fixed Point, 4 dec places");
-                WriteLine($"{myDouble,-10:C} -- Currency");
+                WriteLine($"{myDouble,-10:C} -- Currency");                     //that dont't print currency (prints ?)
                 WriteLine($"{myDouble,-10:E3} -- Sci. Notation, 3 dec places");
                 WriteLine($"{1194719,-10:x} -- Hexadecimal integer");
                 /*
